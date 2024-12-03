@@ -121,7 +121,9 @@ div .carousel-content {
   grid-template-columns: 1fr 1fr;
 }
 
+.button2 {
 
+}
 
 .block {
     display: inline-flex;
@@ -450,6 +452,26 @@ body{
     border-color: #333;
     color: #fff;
   }
+
+   .button2 {
+    text-decoration: none;
+    font-family: 'Handjet';
+    font-size: 30px;
+    color: #6e6e6e;
+    padding: 15px;
+    padding-left: 20px;
+    transition-duration: 0.3s;
+    display: inline-block;
+    border: solid 3px #6e6e6e;
+    margin-right: 10px ;
+    margin-top: 20px;
+  }
+  .button2.button2:hover {
+    background-color: #333;
+    border-color: #333;
+    color: #fff;
+  }
+
   .img6 {
     width: 290px;
     height: 335px;
